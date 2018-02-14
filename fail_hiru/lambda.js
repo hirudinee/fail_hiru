@@ -8,8 +8,10 @@ exports.handler = function (event, context, callback) {
 	}, function (err, data) {
 		if (err) {
 			//handle error
+			console.log(test);
 		} else {
 			//your logic goes here
+			console.log(data);
 		}
 	});
 
